@@ -1,0 +1,712 @@
+   /* ---- 👇👇👇👇 Media queries 👇👇👇👇 ----*/
+
+
+      /* ---- 👇👇👇👇 Tablet 👇👇👇👇 ----*/
+
+   @media (max-width:1023px) {
+
+   .top-header {
+      box-sizing: border-box;
+      display: flex;
+      margin: 0 auto;
+      width: 100%;
+      height: 86px;
+      padding: 0;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+      .asana,
+      .atlassian,
+      .calender,
+      .google-ads,
+      .google,
+      .paypal,
+      .weave {
+      animation: none;
+   }
+
+   .nav-header {
+      display: none;
+   }
+
+   .menu-toggle {
+      display: block;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #2476ff;
+   }
+
+   .hero-section {
+      display: flex;
+      margin: 0 auto;
+      padding: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 772px;
+      height: 664px;
+      background-image: url(/assets/bg/background-top.svg);
+   }
+
+   .why-section {
+      width: 100%;
+      height: 354px;
+      padding: 0;
+   }
+
+   .left-part {
+      display: flex;
+      width: 712px;
+      height: 305px;
+   }
+
+   .left-part p {
+      display: flex;
+      justify-content: center;
+      width: 772px;
+      height: 48px;
+   }
+
+   .bottom-left {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+   }
+
+   .learn-more {
+      margin: auto 0;
+   }
+   
+
+   .right-part {
+      display: flex;
+      margin-top: 100px;
+      width: 482px;
+      height: 506px;
+   }
+
+   .why-section {
+      margin-top: 100px;
+   }
+
+   .bullet-container {
+      width: 100%;
+   }
+
+   .pricing-table {
+      display: flex;
+      flex-direction: column;
+      width: 768px;
+      height: 833px;
+      align-items: center;
+   }
+
+   .plan {
+      width: 100%;
+   }
+
+   .plans-feature-list {
+      margin: 0 auto;
+      width: 80%;
+      height: 373px;
+   }
+
+   .pricing-section {
+      display: flex;
+      width: 768px;
+      height: 1013px;
+   }
+
+   .plan-features {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      width: 100%;
+   }
+
+   .pricing-title {
+      display: flex;
+      justify-content: start;
+      margin: 0 auto;
+      width: 768px;
+      height: 54px;
+   }
+
+   .hire-us-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 984px;
+   }
+
+   .left-hire-section {
+      display: flex;
+      flex-direction: row;
+      width: 708px;
+      height: 240px;
+   }
+
+   .right-hire-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+   }
+
+   .form-container {
+      display: flex;
+      justify-content: center;
+      width: 648px;
+      height: 655px;
+   }
+
+   .form-data {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 648px;
+      height: 624px;
+   }
+
+   .name-group,
+   .select-group,
+   .comment-box {
+      width: 588px;
+   }
+
+   .agreement-group .privacy {
+      width: 588px;
+   }
+
+   .email-group,
+   .email {
+      width: 588px;
+   }
+
+   .first-name,
+   .last-name,
+   .drop-down {
+      width: 284px;
+   }
+
+   .action-button {
+      width: 125px;
+      position: relative;
+      top: 5px;
+   }
+
+   .main-footer-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 381px;
+   }
+
+   .footer-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      gap: 60px;
+      width: 708px;
+      height: 381px;
+   }
+
+   .frame-bottom {
+      display: flex;
+      flex-wrap: wrap;
+      width: 417px;
+      height: 381px;
+   }
+}
+
+      /* ---- 👇👇👇👇 MOBILE 👇👇👇👇 ----*/
+
+   @media (max-width: 767px) {
+
+      .top-header {
+         width: 100%;
+      }
+   
+      .nav-header {
+         display: none;
+      }
+   
+      .menu-toggle {
+         display: block;
+         background: none;
+         border: none;
+         font-size: 24px;
+         cursor: pointer;
+         color: #2476ff;
+      }
+   
+      .hero-section {
+         width: 100%;
+         height: 594px;
+         padding: 0;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+   
+      .left-part {
+         display: flex;
+         width: 328px;
+         height: 235px;
+         text-align: center;
+         justify-content: center;;
+      }
+   
+      .video-button {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 7px;
+         width: 137px;
+         height: 48px;
+      }
+   
+      .play-circle {
+         margin: 2px;
+      }
+   
+      .bottom-left {
+         margin: 0 auto;
+      }
+   
+      .right-part {
+         display: flex;
+         margin-top: 70px;
+         position: relative;
+         width: 328px;
+         height: 309px;
+      }
+   
+      .right-part img {
+         position: absolute;
+      }
+   
+      .asana,
+      .atlassian,
+      .calender,
+      .google-ads,
+      .google,
+      .paypal,
+      .weave {
+         animation: none;
+      }
+   
+      .asana {
+         width: 80px;
+         height: 80px;
+         top: 0px;
+         left: 248px;
+         border-radius: 40px;
+         padding: 16px;
+      }
+   
+      .atlassian {
+         width: 80px;
+         height: 80px;
+         top: 0px;
+         left:114px;
+         border-radius: 40px;
+         padding: 16px;
+      }
+   
+      .calender {
+         width: 80px;
+         height: 80px;
+         top: 219px;
+         left: 239px;
+         border-radius: 40px;
+         padding: 16px;
+      }
+   
+      .google-ads {
+         width: 60px;
+         height: 60px;
+         top: 209px;
+         left: 106px;
+         border-radius: 30px;
+         padding: 10px;
+      }
+   
+      .google {
+         width: 60px;
+         height: 60px;
+         top: 0%;
+         left: 0%;
+         border-radius: 30px;
+         padding: 10px;
+      }
+   
+      .paypal {
+         width: 80px;
+         height: 80px;
+         top: 99px;
+         left: 0px;
+         border-radius: 40px;
+         padding: 16px;
+      }
+   
+      .weave {
+         width: 80px;
+         height: 80px;
+         left: 184px;
+         top: 99px;
+         border-radius: 40px;
+         padding: 16px;
+      }
+   
+      .why-section {
+         display: flex;
+         width: 100%;
+         height: 488px;
+         padding: 0;
+      }
+   
+      .bullet-container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+         height: 251px;
+      }
+   
+      .circle-item {
+         display: flex;
+         justify-content: start;
+         flex-direction: row;
+         width: 300px;
+      }
+   
+      .circle-one::before,
+      .circle-two::before,
+      .circle-three::before,
+      .circle-four::before {
+         display: none;
+      }
+   
+      .circle-one::after,
+      .circle-two::after,
+      .circle-three::after,
+      .circle-four::after {
+         display: none;
+      }
+   
+      .pricing-section {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+         height: 1451px;
+      }
+   
+      .pricing-title {
+         display: flex;
+         width: 100%;
+         height: 60px;
+      }
+   
+      .plan {
+         width: 100%;
+      }
+   
+      .pricing-table {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         height: 1451px;
+         display: flex;
+      }
+   
+      .plans-feature-list {
+         width: 328px;
+         height: 844px;
+         display: flex;
+         flex-direction: column;
+      }
+   
+      .plan-features {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: nowrap;
+         width: 100%;
+         }
+
+      .plan-feature-one img {
+         margin: 0;
+      }
+   
+   
+      .row-one,
+      .row-two {
+         display: flex;
+         flex-direction: column;
+         width: 328px;
+         height: 450px;
+      }
+   
+      .hire-us-section {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+         height: 1337px;
+      }
+   
+      .left-hire-section {
+         display: flex;
+         width: 338px;
+         height: 457px;
+      }
+   
+      .right-hire-section {
+         display: flex;
+         justify-content: center;
+         width: 362px;
+         height: 880px;
+      }
+   
+      .hire-us-caption {
+         display: flex;
+         justify-content: center;
+         width: 330px;
+         height: 24px;
+      }
+   
+      .hire-line {
+         width: 330px;
+      }
+   
+      .phrase {
+         text-align: center;
+         width: 330px;
+         height: 72px;
+      }
+   
+      .form-container {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         width: 330px;
+         height: 870px;
+      }
+   
+      .form-data {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         width: 270px;
+         height: 678px;
+      }
+   
+      .form-data p {
+         width: 270px;
+         height: 50px;
+      }
+   
+      .name-group {
+         display: flex;
+         flex-direction: column;
+         width: 275px;
+         height: 180px;
+      }
+   
+   
+      .first-name, .last-name {
+         margin: 0;
+         padding: 0;
+         width: 270px;
+         height: 44px;
+      }
+   
+      .email-group {
+         width: 270px;
+      }
+   
+      .select-group {
+         display: flex;
+         flex-direction: column;
+         width: 270px;
+         height: 108px;
+      }
+   
+      .comment-box {
+         display: flex;
+         flex-direction: column;
+         width: 270px;
+         height: 150px;
+         position: relative;
+      }
+      
+      .agreement-group {
+         width: 229px;
+         height: 100px;
+      }
+   
+      .privacy {
+         margin-left: 35px;
+         width: 229px;
+         height: 22px;
+      }
+   
+      .privacy p:last-of-type {
+         display: none;
+      }
+   
+      .action-button {
+         margin: 0 auto;
+         width: 125px;
+         height: 45px;
+      }
+   
+      .drop-down {
+         display: flex;
+         flex-direction: column;
+         width: 270px;
+         height: 44px;
+      }
+   
+      .left-section-top {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 338px;
+         height: 204px;
+      }
+   
+      .left-section-bottom, img{
+         margin: 0 auto;
+      }
+   
+   .left-section-bottom {
+      display: flex;
+      justify-content: center;
+      width: 330px;
+      height: 133px;
+   }
+   
+   .person {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      width: 330px;
+      height: 43px;
+   }
+   
+   .main-footer-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 1251.76px;
+   }
+   
+   .footer-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      width: 328px;
+      height: 1231.76px;
+   }
+   
+   .frame2 .career {
+      text-align: left;
+      margin-left: 30px;
+   }
+   
+   .career::after {
+      right: 30px;
+      top: 85px;
+   }
+   
+   .frame1 {
+      text-align: center;
+      width: 328px;
+      height: 111.76px;
+   }
+   
+   .frame1 img {
+      width: 100px;
+      height: 29.76px;
+   }
+   
+   .nav-icon {
+      margin: 0 auto;
+      width: 316px;
+      height: 62px;
+   }
+   
+   .location-info {
+      margin: 0 auto;
+   }
+   
+   .telephone{
+      margin: 0 auto;
+      width: 316px;
+      height: 21px;
+   }
+   
+   .telephone {
+      width: 186px;
+      height: 21px;
+      
+   }
+   
+   .frame-bottom {
+      display: flex;
+      flex-direction: column;      
+      align-items: center;
+      text-align: center;
+      width: 320px;
+      height: 1080px;
+   }
+   
+   .frame-bottom h4 {
+      font-size: 20px;
+      font-weight: 860;
+   }
+   
+   .frame-bottom p {
+      font-size: 18px;
+      font-weight: 510;
+   }
+   
+   .frame2 {
+      width: 175px;
+      height: 255.5px;
+   }
+   
+   .frame2 h4 {
+      width: 145px;
+      height: 24px;
+      margin: 0 auto;
+  
+   }
+   
+  .bottom-section {
+      margin: 0 auto;
+      width: 175px;
+      height: 229px;
+      gap: 20px;
+   }
+  
+   .bottom-text > .customer {
+      order: 2;
+   }
+  
+   .bottom-text > .blog {
+   order: 1;
+   }
+  
+   .bottom-text > .hire-us {
+      order: 3;
+   }
+   
+}
